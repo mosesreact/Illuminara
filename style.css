@@ -1,0 +1,90 @@
+/* Base Reset & Theme */
+body {
+  color: #cce6e4;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  background-image: url('6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  color: #fdd76e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffeaa0;
+}
+
+header {
+  background: radial-gradient(circle, rgba(13, 18, 50, 0.85), #0b0f2b);
+  color: #fdd76e;
+}
+
+.deity-logo {
+  max-width: 150px;
+  height: auto;
+}
+
+
+
+/* Text styles */
+.section-title, h4, p {
+  
+  color: #0b0f2b;  
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+
+.header-content div h1 p {
+color: white;    
+}
+
+.lead {
+    color: white;
+}
+
+#worship {
+    background-image: url('2.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+}
+/* Gallery styles */
+#gallery .gallery-img {
+  border: 2px solid #fdd76e;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#gallery .gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #0b0f2b;
+  color: #999;
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1.display-3 {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
